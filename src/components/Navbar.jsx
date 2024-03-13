@@ -52,9 +52,6 @@ function Navbar() {
           </li>
 
 
-hello
-
-
         </ul>
       </div>
     </nav>
