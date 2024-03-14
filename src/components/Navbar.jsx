@@ -33,7 +33,7 @@ function Navbar() {
         </div>
         <ul className="navbar__menu">
         <li className="navbar__item">
-            <Link to="order_now">Order Now</Link>
+            <Link to="/order_now">Order Now</Link>
           </li>
           <li className='navbar__item'>
             <Link to="/contact_us">Contact Us</Link>

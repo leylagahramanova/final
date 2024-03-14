@@ -28,7 +28,7 @@
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 5px 10px;
+    padding: 5px ;
 }
  
 .search-bar input {
@@ -105,12 +105,12 @@ margin-right:auto;
 .product3 h2 {
     font-size: 1.5rem;
     margin: 10px 0;
-    color: #323754;
+    color: var(--black);
 }
  
 .product3 p {
     font-size: 1.1rem;
-    color: #777;
+    color: var(--little-black2);
     margin: 5px 0;
 }
  
@@ -134,8 +134,8 @@ margin-right:auto;
 }
  
 .cart h2 {
+    color:var(--black);
     font-size: 1.8rem;
-    color: #323754;
     margin-top: 0;
     text-align: center;
 }
@@ -170,18 +170,19 @@ margin-right:auto;
 .cart-item .item-details {
     flex: 1;
     display: inline;
+
 }
  
 .cart-item h3 {
     display: inline;
     font-size: 1.4rem;
     margin: 0;
-    color: #323754;
+    color:var(--black);
 }
  
 .cart-item p {
     font-size: 1.1rem;
-    color: #777;
+    color:var(--little-black2);
     margin: 5px 0;
 }
  
@@ -193,8 +194,8 @@ margin-right:auto;
  
 .cart-item .item-actions button {
     background-color:var(--brown);
+color:var(--white);
     border: none;
-    color: white;
     padding: 8px 15px;
     border-radius: 20px;
     cursor: pointer;
@@ -219,13 +220,13 @@ margin-right:auto;
     font-size: 1.4rem;
     margin: 20px 0;
     text-align: right;
-    color: #323754;
+    color:var(--black);
 }
  
 .cart .checkout-button {
-    background-color: #1e1e1e;
+    background-color:var(--brown);
     border: none;
-    color: white;
+    color:var(--white);
     padding: 10px 15px;
     border-radius: 20px;
     cursor: pointer;
@@ -264,9 +265,7 @@ margin-right:auto;
         margin-bottom: 5px;
     }
  
-    .product3 {
-        width: 50%;
-    }
+  
  
     .cart {
         min-width: unset;
@@ -277,7 +276,7 @@ margin-right:auto;
 .add-to-cart-button {
     background-color: var(--brown);
     border: none;
-    color: white;
+    color: var(--white);
     padding: 8px 15px;
     border-radius: 20px;
     cursor: pointer;
@@ -313,7 +312,7 @@ margin-right:auto;
 }
  
 .checkout-section .checkout-button {
-    background-color: #323754;
+    background-color: var(--brown);
 }
  
 .checkout-section .checkout-button:hover {

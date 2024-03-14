@@ -34,8 +34,8 @@ const Layout= ({ children })=> {
     const[isDark, setIsDark]=useState(false)
   return (
     <div className='container' data-theme={isDark ? "dark":"light"}>
-    <Toggle is checked={isDark} handleChange={()=>setIsDark(!isDark)}/>
 <Navbar/>
+<Toggle is checked={isDark} handleChange={()=>setIsDark(!isDark)}   icons={{ checked: "🌙", unchecked: "🔆" }}   aria-label="Dark mode toggle" />
       {children}
     <div className="ttt" style={{ display: visible ? 'block' : 'none' }}>
           <button>
