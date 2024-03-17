@@ -4,7 +4,7 @@ import './About.css'
 import award1 from '../../img/award1.jpg'
 import award2 from '../../img/award2.webp'
 import award3 from '../../img/award3.jpeg'
-import yell from '../../img/arvica.png';
+import yell from '../../img/about.png';
 function About() {
   return (
     <Layout>    
@@ -26,7 +26,7 @@ veritatis, nihil voluptas culpa! Neque consectetur obcaecati sapiente?</p>
 
         </div>
         <div className='popular2'>
-        <h2>OUR AWARDS</h2>
+        <h2><span>OUR</span> AWARDS</h2>
         <div className='products2'>
           <div className='product2'>
             <div className='square2'>

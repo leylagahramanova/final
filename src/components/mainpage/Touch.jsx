@@ -43,7 +43,10 @@ function Touch() {
           />
         </div>
       </div>
+      <div className='textarea'>
       <textarea name="message" />
+      </div>
+
       <button type="submit" >Submit</button> {/* Removed unnecessary <a> tag */}
     </form>
     </div>

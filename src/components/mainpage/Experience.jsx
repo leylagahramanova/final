@@ -8,19 +8,21 @@ import twobeans from '../../img/two-beans.png'
 function Experience() {
   return (
     <>
-          <section className="section"
+      <section className="section"
       >
-    
-        <div className='experience'>
-    <h1>Experience the Finest<br></br> Artisanal Coffee Roasting</h1>
-    <p>"Indulge in the Perfect Cup of Perfection"</p>
 
-<img  className="explosion"src={explosion} id="exp1"/>
-    <button><a>SHOP NOW</a></button>
-    <img className="explosion" id="exp2" src={explosion}/>
-  </div>
-  </section>
-  <div className='description'>
+        <div className='experience'>
+          <h1>Experience the Finest<br></br> Artisanal Coffee Roasting</h1>
+          <p>"Indulge in the Perfect Cup of Perfection"</p>
+          <div className='explos'>
+            <img className="explosion" src={explosion} id="exp1" />
+            <button><a>SHOP NOW</a></button>
+            <img className="explosion" id="exp2" src={explosion} />
+          </div>
+
+        </div>
+      </section>
+      <div className='description'>
         <div className='white'>
           <p>Non-Volatile Environment Temperatures in Nordic Coffee Roasting Style</p>
           <div className='cups'></div>
@@ -30,7 +32,7 @@ function Experience() {
           <div className="twobeans"></div>
         </div>
       </div>
-  </>
+    </>
 
   )
 }

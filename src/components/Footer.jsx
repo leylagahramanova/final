@@ -14,44 +14,58 @@ function Footer() {
     <div className="footer">
       <div className="grid-container">
         <div className="logo">
-          <img src={logo} alt="Logo"/>
+          <img src={logo} alt="Logo" />
           <p>JavaJolt Roasters</p>
           <div className="footer-icons">
 
-            <a style={iconStyle} href="#"><FaFacebook size={40} style={{ color:"blue",  paddingRight: '5px',
-	marginBottom: "5px"}}/></a>
-            <a style={iconStyle} href="#"><FaTwitter size={40}  style={{  color:"blue",marginRight: '3px',
-	marginBottom: "5px"}}/></a>
-            <a  style={iconStyle} href="#"><FaInstagram size={40}  style={{  color:"black", marginRight: '3px',
-	marginBottom: "5px"}}/></a>
-            <a  style={iconStyle} href="#"><FaGoogle size={40}  style={{  color:"white", marginRight: '3px',
-	marginBottom: "5px"}}/></a>
-            <a style={iconStyle} href="#"><FaYoutube size={40}  style={{ color:"red", marginRight: '3px',
-	marginBottom: "5px"}}/></a>
+            <a style={iconStyle} href="#"><FaFacebook size={40} style={{
+              color: "blue", paddingRight: '5px',
+              marginBottom: "5px"
+            }} /></a>
+            <a style={iconStyle} href="#"><FaTwitter size={40} style={{
+              color: "blue", marginRight: '3px',
+              marginBottom: "5px"
+            }} /></a>
+            <a style={iconStyle} href="#"><FaInstagram size={40} style={{
+              color: "black", marginRight: '3px',
+              marginBottom: "5px"
+            }} /></a>
+            <a style={iconStyle} href="#"><FaGoogle size={40} style={{
+              color: "white", marginRight: '3px',
+              marginBottom: "5px"
+            }} /></a>
+            <a style={iconStyle} href="#"><FaYoutube size={40} style={{
+              color: "red", marginRight: '3px',
+              marginBottom: "5px"
+            }} /></a>
           </div>
         </div>
         <div className="footer-info">
-          <h3><pre>     Contact</pre></h3>
+          <h3>   Contact</h3>
           <div className='info'>
+            <ul>
+              <li><i><FaLocationDot size={40} style={{ color: '#FBBC04' }} /></i><p>4140 Parker Rd.</p></li>
+              <div  className='parker'>              <p>Allentown, New</p>
+              <p>Mexico 31134</p></div>
 
-            <p><pre><FaLocationDot size={40}  style={{color:'#FBBC04'}}/> 4140 Parker Rd.<br></br>   Allentown, New<br></br>   Mexico 31134</pre></p>
+              <li><i><BsTelephone size={40} style={{ color: '#FBBC04' }} /></i> <p> (319) 555-0115 </p></li>
 
-           
-            <p> <pre><BsTelephone size={40} style={{color:'#FBBC04'}} /> (319) 555-0115 </pre></p>
+            </ul>
+</div>
+
           </div>
         </div>
       </div>
-    </div>
-  );
+      );
 }
-const iconStyle = {
-  display: 'inline-block',
-  width: '48px',
-  height: '48px',
-  cursor: 'pointer',
-  fontSize: '20px',
-  textAlign: 'center',
-  lineHeight: '8rem',
+      const iconStyle = {
+        display: 'inline-block',
+      width: '48px',
+      height: '48px',
+      cursor: 'pointer',
+      fontSize: '20px',
+      textAlign: 'center',
+      lineHeight: '8rem',
 };
-export default Footer;
+      export default Footer;
 
