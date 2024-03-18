@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 
 import explosion from '../../img/explosion.png'
 import twobeans from '../../img/two-beans.png'
@@ -12,11 +12,13 @@ function Experience() {
       >
 
         <div className='experience'>
-          <h1>Experience the Finest<br></br> Artisanal Coffee Roasting</h1>
+          <h1>Experience the Finest<br/> Artisanal Coffee Roasting</h1>
           <p>"Indulge in the Perfect Cup of Perfection"</p>
           <div className='explos'>
-            <img className="explosion" src={explosion} id="exp1" />
-            <button><a>SHOP NOW</a></button>
+            <img className="explosion" src={explosion} id="exp1" />    
+<button>
+  <Link to="/order_now">SHOP NOW</Link>
+</button>
             <img className="explosion" id="exp2" src={explosion} />
           </div>
 
