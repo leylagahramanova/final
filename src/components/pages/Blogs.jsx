@@ -93,8 +93,8 @@ function Blogs() {
                 <div className='movie-carousel-container'>
                     <Carousel>
                         {articles.map((article) => (
-                            <div key={article.title} className='movie-card-container'>
-                                <div className="movie-card" style={{
+                            <div key={article.title}  variant={'h2'} className='movie-card-container'>
+                                <div className="movie-card"style={{
                                     backgroundImage: `url(${article.image})`,
                                     backgroundRepeat: 'no-repeat',
                                     backgroundSize: 'cover',

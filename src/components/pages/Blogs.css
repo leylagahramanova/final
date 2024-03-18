@@ -17,6 +17,14 @@
     background-color: black;
     position:relative;
     z-index:1;
+    
+  }.movie-card-container h2{
+    font-family: Popins, sans-serif;
+    font-weight: 400px;
+    font-size: 2.5rem;
+    line-height: 80.5px;
+    text-align: center;
+    color: var(--brown);
   }
   .movie-card{
     background-repeat: no-repeat;
