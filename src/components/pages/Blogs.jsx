@@ -90,11 +90,11 @@ function Blogs() {
     return (
         <Layout>
             <div className="blogs">
-                <div className='movie-carousel-container'>
+                <div className='movie-carousel-container' >
                     <Carousel>
                         {articles.map((article) => (
-                            <div key={article.title}  variant={'h2'} className='movie-card-container'>
-                                <div className="movie-card"style={{
+                            <div key={article.title} className='movie-card-container'>
+                                <div className="movie-card" style={{
                                     backgroundImage: `url(${article.image})`,
                                     backgroundRepeat: 'no-repeat',
                                     backgroundSize: 'cover',
@@ -105,7 +105,7 @@ function Blogs() {
                                             <h1 className='titleBg'>{article.title}</h1>
                                             <Typography
                                                 className="description"
-                                                variant="body1"
+                                                variant="p"
                                             >
                                                 {article.description}
                                             </Typography>
