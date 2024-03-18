@@ -16,7 +16,7 @@ function Home() {
         <Lux />
         <Prod />
         <Comments />
-        {/* <Touch /> */}
+        <Touch /> 
         <Mind />
         </Layout>
             
