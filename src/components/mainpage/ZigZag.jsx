@@ -4,23 +4,34 @@ import process from '../../img/process.png';
 import ground from '../../img/ground.png';
 import cup from '../../img/cup.jfif';
 import arrow from '../../img/arrow.png';
+import twobeans from '../../img/two-beans.png'
+import coffeecup from '../../img/coffeecup.png'
 function ZigZag() {
   return (
     <div className="zigzag-timeline">
       <h2>PROCESS</h2>
+      <div className="exolosion">
+        <img className="beans" src={twobeans}  />
+      </div>
+    <div className="zig-zag">
+    
       <div className="zigzag-item">
         <div className="content">
           <img className="circle" src={beans} alt="Event 1" />
-          <h4 className="right" style={{ paddingTop: "4rem" }}>Beans are the seeds of the coffee cherry</h4>
+          <h4 className="right" style={{   width: '50%'  }}>Beans are the seeds of the coffee cherry</h4>
+       
         </div>
       </div>
-  
+
       <div className="arrow" id="first">
         <img src={arrow} alt="Arrow" />
       </div>
-  
+      <div className="exolosion">
+        <img className="cup" src={coffeecup}  />
+      </div>
       <div className="zigzag-item">
-    <div className="content" style={{ paddingLeft: '10rem' }}>
+   
+    <div className="content" style={{ }}>
       <div className="text">
         <h4 className='first' style={{  width: '50%' }}>They are cleaned, triaged, and processed.</h4>
         <img className="circle" style={{  }}src={process} alt="Event 2" />
@@ -44,14 +55,21 @@ function ZigZag() {
         <img src={arrow} alt="Arrow" />
       </div>
   
-      <div style={{ paddingLeft: "10rem"}} className="zigzag-item">
-    <div className="content">
-      <h4 style={{ paddingTop: "15rem", width: '50%' }}>Freshly roasted beans make the best cup of coffee.</h4>
-      <img className="last" style={{ borderRadius: '25px', height: '40%', width: "40%" }} src={cup} alt="Event 3" />
+      <div style={{ }} className="zigzag-item">
+      <div className="exolosion">
+        <img className="beans2" src={twobeans}  />
+      </div>
+    <div className="content-second">
+      <h4 style={{  width: '50%' }}>Freshly roasted beans make the best cup of coffee.</h4>
+      <img className="last" style={{ borderRadius: '25px' }} src={cup} alt="Event 3" />
     </div>
+   
+  </div>
+  <div className="exolosion">
+        <img className="cup2" src={coffeecup}  />
+      </div>
   </div>
   </div>
- 
   );
 }
 export default ZigZag
