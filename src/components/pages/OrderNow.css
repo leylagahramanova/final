@@ -95,12 +95,7 @@ margin-right:auto;
     /* Added box shadow transition */
 }
  
-.product3:hover img {
-    transform: scale(1.1);
-    z-index: 1;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
-    /* Enhanced box shadow on hover */
-}
+
  
 .product3 h2 {
     font-size: 1.5rem;
