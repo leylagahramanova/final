@@ -8,7 +8,7 @@ import { FaGoogle } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { BsTelephone } from "react-icons/bs";
-
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer">
@@ -18,26 +18,26 @@ function Footer() {
           <p>JavaJolt Roasters</p>
           <div className="footer-icons">
 
-            <a style={iconStyle} href="#"><FaFacebook size={40} style={{
-              color: "blue", paddingRight: '5px',
+            < Link  style={iconStyle} href="#"><FaFacebook size={40} style={{
+              color: "#1877F2", paddingRight: '5px',
               marginBottom: "5px"
-            }} /></a>
-            <a style={iconStyle} href="#"><FaTwitter size={40} style={{
-              color: "blue", marginRight: '3px',
+            }} /></ Link >
+            < Link  style={iconStyle} href="#"><FaTwitter size={40} style={{
+              color: "	#1DA1F2", marginRight: '3px',
               marginBottom: "5px"
-            }} /></a>
-            <a style={iconStyle} href="#"><FaInstagram size={40} style={{
+            }} /></ Link >
+            < Link style={iconStyle} href="#"><FaInstagram size={40} style={{
               color: "black", marginRight: '3px',
               marginBottom: "5px"
-            }} /></a>
-            <a style={iconStyle} href="#"><FaGoogle size={40} style={{
+            }} /></ Link >
+            < Link style={iconStyle} href="#"><FaGoogle size={40} style={{
               color: "white", marginRight: '3px',
               marginBottom: "5px"
-            }} /></a>
-            <a style={iconStyle} href="#"><FaYoutube size={40} style={{
+            }} /></ Link >
+            < Link style={iconStyle} href="#"><FaYoutube size={40} style={{
               color: "red", marginRight: '3px',
               marginBottom: "5px"
-            }} /></a>
+            }} /></ Link >
           </div>
         </div>
         <div className="footer-info">
