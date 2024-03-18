@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'; 
 import { AiOutlineArrowUp } from 'react-icons/ai';
 import Navbar from "./Navbar";
+import Button from '@mui/material/Button';
 import Footer from "./Footer";
 import { Toggle } from "./Toggle";
 import '../App.css';
@@ -59,9 +60,9 @@ const Layout = ({ children }) => {
 <Toggle is checked={isDark} handleChange={handleDarkModeToggle}/>
       {children}
     <div className="ttt" style={{ display: visible ? 'block' : 'none' }}>
-          <button>
-            <AiOutlineArrowUp style={{ fontSize: '250%' }} onClick={scrollToTop} />
-          </button>
+    <Button>
+              <AiOutlineArrowUp style={{ fontSize: '250%', color:'white' }} onClick={scrollToTop} />
+            </Button>
         </div>
     <Footer/>
     </div>
