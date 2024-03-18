@@ -9,6 +9,7 @@ import americano from "../../img/americano.png";
 import indian from "../../img/indian.png";
 import bangladesh from "../../img/bangladesh.png";
 import arvica from "../../img/arvica.png";
+import { Link } from "react-router-dom";
 function Prod() {
   return (
     <div className='popular'>
@@ -47,7 +48,7 @@ function Prod() {
         </div>
 
         <div className="all-products">
-          <button><a>See All Products</a></button>
+          <button><Link href='/order_now'>See All Products</Link></button>
         </div>
       </div>
   )
